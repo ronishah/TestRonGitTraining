@@ -24,12 +24,12 @@ public class JUnitHelloWorldTest {
 	public void isGreaterTest() {
 		System.out.println("Test");
 		JUnitHelloWorld tester = new JUnitHelloWorld();
-		assertTrue("Num 1 is greater than Num 2", tester.isGreater(3, 2));
+		assertTrue("Num 1 is greater than Num 2", tester.isGreater(4, 2));
 	}
 
 	@After
 	public void after() {
-		System.out.println("After Test Case");
+		System.out.println("After the Test Case");
 	}
 
 	@AfterClass
